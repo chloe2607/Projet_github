@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<!--
+
+MIN - Exercice 1 - TP1
+04/03/2021
+-->
+<html>
+<head>
+    <title>Exercice 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- On associe un fichier CSS qui permet de définir la présentation -->
+    <link rel="stylesheet" type="text/css" title="design" href="exercice3.css" />
+    <!-- On  associe une image icone pour l'entête -->
+    <link rel="icon" type="image/png" href="stockage/icone.png" />
+</head>
+<body>
+
+    <form method="get" action="">
+        <fieldset>
+            <legend>Informations sur un employé</legend> <!-- Titre du fieldset -->
+            <br />
+            <!--<label for="NSS">Numéro de sécurité sociale :</label>
+    <input type="text" name="NSS" id="numSS">
+    <br />
+    <label for="prenom">Nom et Prenom :</label>
+    <input type="text" name="prenom" id="prenom">
+    <br />
+    <label for="age">Age :</label>
+    <input type="age" name="age" id="age">
+    <br />
+    <label for="salaire">Salaire en DH :</label>
+    <input type="salaire" name="salaire" id="salaire">
+    <br />
+    <label for="grade">Grade :</label>
+    <input type="grade" name="grade" id="grade">-->
+
+
+            <table id="tmen">
+                <tr>
+                    <!--Les images de séparateur sont dans 1 case sur 2 (pour séparer les textes)-->
+                    <td><label for="NSS">Numéro de sécurité sociale :</label> </td>
+                    <td><input type="text" name="NSS" id="numSS"> </td>
+                    
+                </tr>
+
+                <tr>
+                    <!--Les images de séparateur sont dans 1 case sur 2 (pour séparer les textes)-->
+                    <td><label for="prenom">Nom et Prenom :</label></td>
+                    <td> <input type="text" name="prenom" id="prenom"></td>
+                </tr>
+
+                <tr>
+                    <!--Les images de séparateur sont dans 1 case sur 2 (pour séparer les textes)-->
+                    <td>    <label for="age">Age :</label></td>
+                    <td>  <input type="age" name="age" id="age"></td>
+                </tr>
+
+                <tr>
+                    <!--Les images de séparateur sont dans 1 case sur 2 (pour séparer les textes)-->
+                    <td><label for="salaire">Salaire en DH :</label></td>
+                    <td><input type="salaire" name="salaire" id="salaire"></td>
+                </tr>
+
+                <tr>
+                    <!--Les images de séparateur sont dans 1 case sur 2 (pour séparer les textes)-->
+                    <td> <label for="grade">Grade :</label></td>
+                    <td> <input type="grade" name="grade" id="grade"></td>
+                </tr>
+            </table>
+
+            <br />
+            <br />
+            <input class="button " type="submit" value="Enregistrer">
+            <input class="button " type="submit" value="Nouveau">
+            <input class="button " type="submit" value="Effacer tous les champs">
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <legend>Affichage de la base de données</legend> <!-- Titre du fieldset -->
+            <br />
+            <table id="tmenu">
+                <tr>
+                    <td>Numéro de sécurité sociale</td>
+                    <td>Nom et Prenom</td>
+                    <td>Age</td>
+                    <td>Salaire en DH</td>
+                    <td>Grade</td>
+                </tr>
+                
+            </table>
+
+        </fieldset>
+
+
+
+    </form>
+</body>
+</html>

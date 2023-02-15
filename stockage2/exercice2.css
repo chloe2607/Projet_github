@@ -1,0 +1,73 @@
+﻿/*
+
+MIN - Exercice 2 - TP1
+04/03/2021
+*/
+
+body /*Propriétés pour le body (Toute la page affichée)*/ {
+    width: 900px; /* La largeur de l'élément en pixels */
+    margin: auto; /* La marge de l'élément réglée automatiquement*/
+    padding: 1px; /*écart de remplissage sur les cotés en pixels*/
+    margin-top: 0px; /*La marge de bas de l'élement en pixels*/
+    margin-bottom: 10px; /*La marge du haut de l'élement en pixels*/
+}
+
+#bandeau /*Propriétés pour la div avec l'id menu*/ {
+    height: 38px; /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    
+}
+
+#accueil {
+    float: left; /*Place l'élement sur le côté gauche de la page*/
+    width: 200px; /* La largeur de l'élément en pixels */
+}
+
+
+
+
+#tmenu /*Propriétés pour le tableau du menu (défini par un identifiant)*/ {
+    height: 38px; /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    border-collapse: collapse; /*Fait fusionner les bordures du tableau*/
+    text-align: center; /*Le texte est centré dans les celulles*/
+    font-size: 11px; /*La taille de la police est de 11 pixels*/
+    background-image: url("menu.png"); /*Le fond est une image*/
+    background-repeat: no-repeat; /*L'image de fond ne se répète pas*/
+
+    border: 1px solid white; /* auront une bordure de 1px */
+}
+
+
+tr, td /*Propriétés des lignes et colonnes des tableaux (ici on en a un seul, celui du menu)*/ {
+    padding: 0px; /*écart de remplissage sur les cotés en pixels*/
+    height: 38px; /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    border: 1px solid white;
+}
+
+
+
+.t-text {
+    font-size: 13.5px; /*La taille de la police est de 11 pixels*/
+    font-family: "Arial"; /*On définit la police de caractère*/
+    color: white;
+}
+
+.Intro {
+    float: left; /*Place l'élement sur le côté gauche de la page*/
+    width: 650px; /* La largeur de l'élément en pixels */
+    padding-left: 10px; /*écart de remplissage de gauche en pixels ,afin d'espacé les blocs de textes*/
+    font-size: 13.5px; /*La taille de la police est de 11 pixels*/
+    font-family: "Arial"; /*On définit la police de caractère*/
+    border:1px solid black;
+}
+
+
+
+h1{
+    text-decoration : underline;
+    color: darkblue
+}
+
+h2{
+    text-decoration : underline;
+    color: darkblue;
+}
