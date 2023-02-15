@@ -1,0 +1,45 @@
+﻿/*
+
+MIN - Exercice 1 - TP1
+04/03/2021
+*/
+
+body /*Propriétés pour le body (Toute la page affichée)*/ {
+    width: 900px; /* La largeur de l'élément en pixels */
+    margin: auto; /* La marge de l'élément réglée automatiquement*/
+    padding: 1px; /*écart de remplissage sur les cotés en pixels*/
+    margin-top: 0px; /*La marge de bas de l'élement en pixels*/
+    margin-bottom: 10px; /*La marge du haut de l'élement en pixels*/
+}
+
+
+#tmen /*Propriétés pour le tableau du menu (défini par un identifiant)*/ {
+    height: 38px; /*La hauteur de l'élement en pixels (la même que celle des images)*/
+    border-collapse: collapse; /*Fait fusionner les bordures du tableau*/
+    text-align: left; /*Le texte est centré dans les celulles*/
+    font-size: 11px; /*La taille de la police est de 11 pixels*/
+   
+
+    border: 1px solid white; /* auront une bordure de 1px */
+}
+
+
+
+
+
+.button{
+    font-weight : bold;
+}
+
+#tmenu {
+    border-collapse: collapse;
+    background-color  : green;
+    
+    color : black;
+}
+
+td, tr {
+    border: 1px solid white;
+    padding: 15px;
+    font-weight: bold;
+}
